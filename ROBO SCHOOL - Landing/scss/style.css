@@ -1,0 +1,669 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #141024;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2d2354;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #352966;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #141024;
+  padding: 38px 100px 0 100px;
+}
+nav .logo {
+  color: #FFF;
+  font-family: Jost;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  text-decoration: inherit;
+  /* 48px */
+}
+nav .navigation {
+  display: flex;
+  gap: 40px;
+}
+nav .navigation a {
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration: inherit;
+  /* 32px */
+}
+nav .navigation a:hover {
+  color: #fff0ab;
+}
+nav .link-num a {
+  color: #FFF;
+  text-align: right;
+  font-family: Jost;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  /* 48px */
+  text-decoration: inherit;
+}
+
+/* Header */
+header {
+  height: 1015px;
+  flex-shrink: 0;
+  background: #141024;
+  /* --- */
+  /* --- */
+}
+header .wrapper {
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+header .head_wrapper {
+  display: block;
+  margin-top: -87px;
+}
+header .head_wrapper h1 {
+  color: #FFF;
+  font-family: Jost;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  margin-bottom: 20px;
+  /* 112px */
+}
+header .head_wrapper p {
+  width: 478px;
+  color: #FFF;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 50px;
+  /* 32px */
+}
+header .head-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #D52027;
+}
+header .head-btn a {
+  color: #fff;
+  padding: 25px 54px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 28.8px */
+  transition: box-shadow 0.4s ease-in-out;
+}
+header .head-btn a:hover {
+  box-shadow: -2px 2px 2px #666666;
+}
+header .head_wrap {
+  width: 783px;
+  height: 783px;
+  flex-shrink: 0;
+  border-radius: 783px;
+  border: 80px solid #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .img_wrap {
+  background-image: url(/img/img1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 515.525px;
+  height: 907.485px;
+  flex-shrink: 0;
+  position: relative;
+  top: -30px;
+}
+
+/* About_school */
+.about_school {
+  display: block;
+  margin-top: 120px;
+  margin-left: 380px;
+  margin-bottom: 120px;
+  /* --- */
+}
+.about_school .about {
+  width: 891px;
+  margin-bottom: 60px;
+}
+.about_school .about h3 {
+  color: #141024;
+  font-family: Jost;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.about_school .about span {
+  color: #141024;
+  font-family: Jost;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  /* 48px */
+}
+.about_school .about_static {
+  display: flex;
+  gap: 52px;
+}
+.about_school .static {
+  display: block;
+}
+.about_school .static span {
+  color: #D52027;
+  font-family: Jost;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  /* 112px */
+}
+.about_school .static p {
+  color: rgba(20, 16, 36, 0.7);
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 28.8px */
+}
+
+/* Bonus wrap */
+.bonus_wrap {
+  height: 485px;
+  flex-shrink: 0;
+  background: #F9F9F9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 381px;
+  /* --- */
+  /* --- */
+}
+.bonus_wrap .title_bonus {
+  color: #141024;
+  font-family: Jost;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  padding-bottom: 60px;
+  /* 80px */
+}
+.bonus_wrap .bonus_static {
+  display: flex;
+  gap: 40px;
+}
+.bonus_wrap .bonus span {
+  color: #141024;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  /* 38.4px */
+}
+.bonus_wrap .bonus p {
+  color: rgba(20, 16, 36, 0.7);
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 28.8px */
+}
+.bonus_wrap .frame2 {
+  display: flex;
+  gap: 10px;
+}
+.bonus_wrap .bonus_frame2 {
+  background-image: url(/img/frame2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.bonus_wrap .frame {
+  display: inline-flex;
+  padding: 15px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  position: relative;
+  top: -70px;
+  width: 300px;
+  background: #FFF;
+  box-shadow: 0px 2px 8px 0px rgba(20, 16, 36, 0.1);
+  display: none;
+}
+.bonus_wrap .bonus_frame2:hover .frame {
+  display: block;
+}
+.bonus_wrap .frame-p {
+  color: #141024;
+  text-align: center;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 25.6px */
+}
+
+/* about_treners */
+.about_treners {
+  display: block;
+  margin-top: 120px;
+  margin-left: 381px;
+  margin-bottom: 120px;
+  /* ----- */
+  /* --- */
+  /* Скрытие Ирины Лайм и Лизы Весенней */
+}
+.about_treners .title_treners {
+  color: #141024;
+  font-family: Jost;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  /* 80px */
+}
+.about_treners .slide_bar-treners {
+  display: flex;
+  flex-direction: row;
+}
+.about_treners .slide {
+  margin-right: 40px;
+  margin-top: 60px;
+  width: 80%;
+  border-radius: 20px;
+}
+.about_treners .slide h3 {
+  color: #141024;
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  /* 38.4px */
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.about_treners .slide p {
+  color: rgba(20, 16, 36, 0.7);
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 28.8px */
+  padding-bottom: 20px;
+}
+.about_treners .slide a {
+  color: #D52027;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 160%;
+  /* 28.8px */
+}
+.about_treners .line-slide {
+  display: flex;
+  align-items: center;
+  margin-top: 77px;
+  gap: 700px;
+}
+.about_treners .lines {
+  display: block;
+}
+.about_treners .line-1234 {
+  width: 360px;
+  height: 5px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: rgba(20, 16, 36, 0.08);
+  cursor: pointer;
+}
+.about_treners .line-123 {
+  width: 260px;
+  height: 5px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: #141024;
+}
+.about_treners .btn-slide {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.about_treners .btn-slide button {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+.about_treners .btn-slide p {
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+.about_treners .btn-slide button:active {
+  background-color: white;
+  color: #000;
+  border: 1px solid;
+}
+.about_treners .slide_bar-treners {
+  display: flex;
+  overflow-x: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.about_treners .slide,
+.about_treners .lisa {
+  margin-right: 40px;
+  margin-top: 60px;
+  width: 23.3%;
+  position: relative;
+  border-radius: 20px;
+}
+.about_treners .irina-hidden {
+  display: none;
+}
+.about_treners .lisa-on {
+  display: block;
+  width: 360px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+/* Product */
+.product {
+  display: block;
+  margin-top: 138px;
+  margin-left: 381px;
+  margin-bottom: 120px;
+}
+.product .product-title h3 {
+  color: #141024;
+  font-family: Jost;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  margin-bottom: 80px;
+  /* 80px */
+}
+.product .product_card {
+  display: flex;
+  gap: 40px;
+}
+.product .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  height: 460px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid rgba(20, 16, 36, 0.2);
+  transition: 0.5s;
+}
+.product .product-title {
+  color: none;
+  text-align: center;
+  font-family: Jost;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  margin-top: 40px;
+  /* 48px */
+}
+.product .product-price {
+  color: none;
+  text-align: center;
+  font-family: Jost;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  /* 80px */
+  margin-top: 63px;
+}
+.product .card span {
+  width: 250px;
+  color: none;
+  text-align: center;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 28.8px */
+  margin-top: 20px;
+}
+.product .product-btn {
+  margin-top: 61px;
+}
+.product .first {
+  margin-top: 32px;
+}
+.product .product-btn button {
+  display: flex;
+  width: 280px;
+  padding: 25px 54px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #D52027;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 28.8px */
+}
+.product .card:hover {
+  background: #141024;
+  color: #FFF;
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  background: #D52027;
+  padding-top: 87px;
+  padding-bottom: 87px;
+  /* --- */
+}
+footer .foot-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 144px;
+}
+footer .foot-wrap {
+  display: block;
+}
+footer .foot-title {
+  width: 476px;
+  color: #FFF;
+  font-family: Jost;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  /* 46.8px */
+  margin-bottom: 20px;
+}
+footer .foot-text {
+  color: #FFF;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  /* 26px */
+}
+footer .foot-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer input {
+  width: 500px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #F6F6F6;
+  border: none;
+}
+footer ::-moz-placeholder {
+  width: 299px;
+  color: rgba(40, 41, 68, 0.7);
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 20px;
+}
+footer ::placeholder {
+  width: 299px;
+  color: rgba(40, 41, 68, 0.7);
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 20px;
+}
+footer .foot-form button {
+  width: 500px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #141024;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* foot-end */
+.foot-end {
+  height: 159px;
+  flex-shrink: 0;
+  background: #141024;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.foot-end .end {
+  display: block;
+}
+.foot-end .end h3 {
+  width: 478px;
+  color: #FFF;
+  font-family: Jost;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  /* 48px */
+  margin-bottom: 5px;
+}
+.foot-end .end p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 25.6px */
+}
+.foot-end .end-num {
+  display: block;
+}
+.foot-end .end-num p {
+  color: #FFF;
+  text-align: right;
+  font-family: Jost;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  /* 48px */
+}/*# sourceMappingURL=style.css.map */
